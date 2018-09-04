@@ -1,0 +1,3 @@
+FROM alpine:latest
+COPY kotlin-init.tar /
+CMD cat /kotlin-init.tar
